@@ -12,6 +12,6 @@ function loadHTML(id, url) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  loadHTML('header-container', '../html/header.html');
-  loadHTML('footer-container', '../html/footer.html');
+  loadHTML('header-container', '../index.html/header.html');
+  loadHTML('footer-container', '../index.html/footer.html');
 });
