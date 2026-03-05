@@ -1,0 +1,253 @@
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+
+h1 {
+    font-weight: normal;
+    border-bottom: 1px solid #444;
+    padding-bottom: 12px;
+    margin-bottom: 30px;
+    width: 90%;
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-style: italic;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+h2 {
+    font-weight: 900;
+
+}
+
+h2,
+h4,
+p {
+    margin: 0;
+
+}
+
+h4 {
+    font-style: italic;
+
+}
+
+.info-contacto {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-self: self-start;
+    gap: 10px;
+
+}
+
+h3 {
+    text-decoration: underline;
+
+}
+
+p {
+    font-weight: bold;
+    font-size: small;
+
+}
+
+.info-contacto a {
+    padding-left: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.monolito-de-iconos {
+    background-image: linear-gradient(to bottom left, rgba(139, 126, 112), #a66935);
+    border-color: rgba(153, 107, 67);
+    border-width: 2px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    align-self: center;
+    overflow: hidden;
+}
+
+
+.monolito-de-iconos .logo-img img{
+
+    width: 70px;
+    position: relative;
+    top: 25%;
+    left: 33%;  
+    filter:none;
+
+}
+
+#twitter-icon{
+
+    position: relative;
+    bottom: 50%;
+    left: 43%;
+
+}
+
+#instagram-icon{
+
+    position: relative;
+    bottom: 55%;
+    left: 75%;
+
+}
+
+#facebook-icon{
+
+    position: relative;
+    bottom: 40%;
+    left: 70%;
+
+}
+
+#telegram-icon{
+
+    position: relative;
+    bottom: 66%;
+    left: 15%;
+
+}
+
+#whatsapp-icon{
+
+    position: relative;
+    bottom: 136%;
+    left: 7%;
+
+}
+
+ 
+.logo-img img,
+.monolito-de-iconos img {
+    filter: opacity(0.3);
+    transition: transform 0.6s ease, filter 0.6s ease;
+}
+
+ 
+.logo-img img:hover,
+.monolito-de-iconos img:hover {
+    transform: rotate(360deg) scale(1.2);
+    filter: blur(0);
+}
+
+img {
+    display: block;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.formularios {
+    align-self: first baseline;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+
+    height: 60%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    align-self: center;
+    background-color: rgba(173, 100, 34);
+    font-size: small;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 20px;
+    overflow: hidden;
+    color: white;
+    border: none;
+    height: 25px;
+    transition: 500ms;
+}
+
+button img {
+    height: 18px;
+    width: auto;
+}
+
+input,
+select,
+textarea {
+    background-color: rgba(218, 161, 161);
+    border: 2px solid rgba(239, 92, 91);
+    border-radius: 5px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+}
+
+input:valid,
+select:valid,
+textarea:valid {
+    border-color: rgba(167, 97, 38);
+    background-color: #ffffff;
+}
+
+.checkbox-condiciones {
+    display: flex;
+    align-items: start;
+
+}
+
+.checkbox-condiciones input {
+    display: flex;
+    align-items: start;
+    width: max-content;
+}
+
+
+select {
+    color: rgba(201, 160, 124);
+    background-color: white;
+    border: 2px solid rgba(201, 160, 124);
+}
+
+.checkbox-condiciones a {
+    color: blue;
+    font-weight: bold;
+}
+
+.checkbox-condiciones {
+    font-weight: bold;
+
+}
+
+
+
+input::placeholder,
+textarea::placeholder {
+    color: rgba(239, 92, 91);
+
+}
+
+button:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+}

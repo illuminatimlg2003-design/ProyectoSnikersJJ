@@ -1,0 +1,145 @@
+ 
+  
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: rgba(32, 32, 38);
+ 
+
+}
+
+nav {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: fit-content;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.logo img {
+    max-height: 80px;
+    width: auto;
+}
+
+.logo span {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+
+
+}
+
+.logo .all {
+    font-size: 32px;
+    font-weight: 800;
+
+    color: white;
+}
+
+.logo .shoes {
+    font-size: 32px;
+    font-weight: 300;
+    color: rgba(167, 97, 38);
+}
+
+
+
+.acceso_cuenta {
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.acceso_cuenta img {
+    height: 18px;
+    width: auto;
+}
+
+.acceso_cuenta a {
+    text-decoration: none;
+    color: rgba(167, 97, 38);
+}
+
+.login {
+    display: flex;
+    flex-direction: row-reverse;
+    border: 2px solid orange;
+    border-radius: 5px;
+    padding: 5px;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(40, 40, 48);
+}
+
+.register {
+    display: flex;
+    flex-direction: row-reverse;
+    border: 2px solid orange;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+ 
+
+:hover.register {
+    transition: 1s;
+    color: rgb(255, 255, 255);
+    background-color: orange;
+
+}
+
+:hover.login {
+    transition: 1s;
+    color: rgb(255, 255, 255);
+    background-color: orange;
+
+}
+
+
+nav a:hover {
+    color: orange;
+    transition: 1s;
+    background-color: white;
+}
+
+.separador{
+
+  border-bottom: 1px solid #444;   
+  padding-bottom: 12px;            
+  margin-bottom: 30px;            
+  width: 90%;
+  position: relative;
+  left: 5%;
+}

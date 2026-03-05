@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | Shoes</title>
+  <link rel="stylesheet" href="../css/generico.css">
+  <link rel="stylesheet" href="../css/cabecera.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../css/contacto.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="header-container" role="banner"></div>
+
+  <main role="main" aria-labelledby="titulo-contacto">
+
+    <h1 id="titulo-contacto">CONTACTO</h1>
+    <!-- Información de contacto -->
+    <div class="info-contacto" aria-labelledby="info-contacto-titulo">
+
+      <h2 id="info-contacto-titulo">¿TIENES ALGUNA DUDA?</h2>
+
+      <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.  </h4>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ad libero earum magni sit, cumque delectus,
+        beatae odit nostrum sapiente incidunt voluptas reprehenderit quidem itaque non? Nam natus atque aliquam!</p>
+
+      <h3>E-MAIL</h3>
+      <a href="mailto:info@shoes.es" aria-label="Enviar correo a info arroba shoes punto es">
+        📩info@shoes.es
+      </a>
+
+      <h3>REDES SOCIALES</h3>
+
+      <div class="monolito-de-iconos" role="navigation" aria-label="Redes sociales">
+
+        <a class="logo-img" href="../html/index.html" aria-label="Página principal">
+          <img src="../res/images/icons/Logo.png" alt="Logo de Shoes">
+        </a>
+
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter de Shoes">
+          <img id="twitter-icon" src="../res/images/nosotros/twitter-icon.png" alt="Twitter">
+        </a>
+
+        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Shoes">
+          <img id="instagram-icon" src="../res/images/nosotros/instagram-logo.png" alt="Instagram">
+        </a>
+
+        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook de Shoes">
+          <img id="facebook-icon" src="../res/images/nosotros/facebook-icon.png" alt="Facebook">
+        </a>
+
+        <a href="https://t.me/" target="_blank" rel="noopener noreferrer" aria-label="Telegram de Shoes">
+          <img id="telegram-icon" src="../res/images/nosotros/telegram.jpg" alt="Telegram">
+        </a>
+
+        <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp de Shoes">
+          <img id="whatsapp-icon" src="../res/images/nosotros/whatsapp.jpg" alt="WhatsApp">
+        </a>
+
+      </div>
+
+    </div>
+      <!-- Formulario de contacto -->
+    <div class="formularios">
+
+      <form aria-label="Formulario de contacto">
+
+        <input type="text" placeholder="Nombre" required minlength="2" autocomplete="name" aria-label="Nombre">
+
+        <input type="text" required pattern=".*@.*" placeholder="Email (ejemplo@dominio.com)" autocomplete="email"
+          aria-label="Correo electrónico">
+
+        <input type="text" required pattern="[0-9]{9}" placeholder="Teléfono(XXX XXX XXX)" autocomplete="tel"
+          inputmode="numeric" aria-label="Teléfono">
+
+        <select name="tema" required aria-label="Tema del mensaje">
+
+          <option value="" selected="selected">TEMA</option>
+          <option value="negocio">Propuesta de negocio</option>
+          <option value="producto">Producto</option>
+          <option value="pago">Pagos</option>
+          <option value="otro">Otro</option>
+
+        </select>
+
+        <textarea name="Mensaje" rows="10" placeholder="Mensaje" required aria-label="Mensaje"></textarea>
+
+        <span class="checkbox-condiciones">
+
+          <input type="checkbox" name="condiciones" required aria-label="Aceptar condiciones de uso">
+
+          Aceptar
+          <a href="../res/pdf/condiciones.pdf" aria-label="Leer condiciones de uso">
+            condiciones
+          </a>
+
+        </span>
+
+        <button type="submit" aria-label="Enviar formulario de contacto">
+
+          <img src="../res/images/icons/paper-plane-solid.png" alt="" aria-hidden="true">
+
+          Enviar
+
+        </button>
+
+      </form>
+
+    </div>
+
+  </main>
+
+  <div id="footer-container" role="contentinfo"></div>
+
+  <script src="../js/cargarHeaderYFooter.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+ footer {
+     background-color: rgba(32, 32, 38);
+     color: #fff;
+     display: flex;
+     justify-content: space-around;
+     padding: 20px 0;
+     flex-direction: row;
+     flex-wrap: wrap;
+     gap: 40px;
+ }
+
+ footer h3 {
+     border-bottom: 2px orange solid;
+     padding-bottom: 5px;
+     font-size: medium;
+ }
+
+ footer div {
+     width: 20%;
+
+ }
+
+ .compania {
+     display: flex;
+     flex-direction: column;
+     gap: 3px;
+ }
+
+ .ayuda {
+     display: flex;
+     flex-direction: column;
+     gap: 3px;
+
+ }
+
+ .tienda {
+     display: flex;
+     flex-direction: column;
+    gap: 3px;
+ }
+
+.redes-sociales {
+      
+     display: flex;
+     flex-direction: row;
+     gap: 10px;
+     align-items: center;
+     width: max-content;
+ }
+
+ .siguenos{
+    width: max-content;
+}
+
+ .siguenos img {
+     width: 30px;
+     height: 30px;
+     filter: grayscale();
+ }
+
+ .siguenos img:hover  {
+     filter: none;  
+     transition: 0.5s  ;
+ }

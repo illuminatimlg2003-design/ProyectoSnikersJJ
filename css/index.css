@@ -1,0 +1,142 @@
+.slider {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.slider-texto {
+  width: 60%;
+  background-color: rgb(32, 32, 38);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+
+.slider-texto h2 {
+  color: rgb(167, 97, 38);
+  text-align: center;
+
+}
+
+.entradilla {
+  color: gray;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.slider-texto * {
+  margin: 0;
+}
+
+.slider-texto p+p {
+  font-size: small;
+  text-align: center;
+  padding: 0 20px;
+  color: white;
+}
+
+.slider-contenedor {
+  display: flex;
+  flex-direction: row;
+  max-width: 90%;
+  margin: 60px auto;
+  min-height: 500px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.slider-contenedor img {
+  width: 40%;
+
+}
+
+.info.imagenes {
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+
+.info,
+.imagenes {
+  flex: 1;
+  display: flex;
+  gap: 10px;
+}
+
+.info {
+  flex-direction: column;
+  gap: 4px;
+  padding-left: 10px;
+}
+
+.imagenes {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.info-imagenes {
+  display: flex;
+  gap: 10px;
+}
+
+.caja-contenedora {
+  width: 200px;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.caja-contenedora img {
+  width: 200px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.caja-contenedora:hover img {
+  transform: scale(2);
+}
+
+h2 {
+  color: rgb(167, 97, 38);
+
+}
+
+h2+p {
+  font-weight: bold;
+
+}
+
+h2+p+p {
+  font-size: small;
+  
+}
+
+.info h2,
+.info p {
+  margin: 0;
+}
+
+.info .boton {
+  align-self: self-end;
+  margin-right: 10px;
+  
+}
+
+p+p+.boton {
+
+  font-weight: bold;
+  height: 10px;
+
+}
+
+p+p+.boton img {
+
+  width: 20px;
+
+}

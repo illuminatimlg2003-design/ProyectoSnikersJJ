@@ -1,0 +1,107 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+}
+
+h1 {
+    font-weight: normal;
+    border-bottom: 1px solid #444;
+    padding-bottom: 12px;
+    margin-bottom: 30px;
+    width: 90%;
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-style: italic;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.contenedor img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 110%;
+
+}
+
+.contenedor {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+h2 {
+    align-self: start;
+    letter-spacing: 0.1em;
+
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.mini-logo {
+    align-self: baseline;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.mini-logo img {
+    max-height: 80px;
+    width: auto;
+}
+
+.mini-logo span {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+
+
+}
+
+.mini-logo .all {
+    font-size: 32px;
+    font-weight: 300;
+
+    color: rgb(0, 0, 0);
+}
+
+.mini-logo .shoes {
+    font-size: 32px;
+    font-weight: 300;
+    color: rgba(167, 97, 38);
+}
+
+.entradilla {
+    font-size: small;
+    font-weight: bold;
+
+
+}
+
+.entradilla+p {
+    color: grey;
+
+}
+
+.redes-sociales img {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    display: block;
+    filter: grayscale();
+    transition:  500ms;
+   
+}
+
+ .redes-sociales img:hover {
+    filter: grayscale(0%);
+}
+ 
